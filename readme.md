@@ -20,4 +20,8 @@ print(f'spline derivative value at {x0} is {spline_fun_deriv(x0, 1)}')
 ```
 
 # Test
+
+Run the tests as follows
+```bash
 python -m unittest -v src/test.py
+```
