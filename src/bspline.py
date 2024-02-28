@@ -94,6 +94,7 @@ def get_spline_sx(sp : BSpline, x : SX):
             nonzero = (x >= t[i]) * (x < t[i + 1])
         result += nonzero * __compute_basis(x, i, k, t).T @ c[i-k:i+1,:]
 
+    result = reshape(result, *dshape[::-1]).T
     return result
 
 
