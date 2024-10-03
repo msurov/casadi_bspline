@@ -1,4 +1,7 @@
-from casadi import SX, MX, if_else, DM, Function, substitute, reshape
+from casadi import (
+    SX, MX, if_else, DM,
+    Function, substitute, reshape
+)
 from scipy.interpolate import BSpline
 import numpy as np
 

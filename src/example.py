@@ -1,4 +1,4 @@
-from casadi_bspline.bspline import get_spline_symfun
+from bspline import get_spline_symfun
 from scipy.interpolate import make_interp_spline
 import numpy as np
 import casadi as ca
